@@ -3,9 +3,7 @@ body {
     text-align: center;
     color: white;
     background-image: url(https://ng-sportingnews.com/s3/files/styles/twitter_card_120x120/s3/2024-06/GFX-1433%20LIVE_FTR%20for%20NBA%20Finals%20live%20blog.jpg?itok=1UABBhI5); backdrop-filter: blur(1px); 
-    background-size: 800px;
-    width: 800px;
-    height: 600px;
+    background-size: cover;
 }
 
 
