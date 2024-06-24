@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    text-align: center;
+    color: white;
+    background-image: url(https://ng-sportingnews.com/s3/files/styles/twitter_card_120x120/s3/2024-06/GFX-1433%20LIVE_FTR%20for%20NBA%20Finals%20live%20blog.jpg?itok=1UABBhI5); backdrop-filter: blur(0.9px); 
+    background-size: cover;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+h3 {
+    margin: 12x auto;
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 64px;
+    color: white;
+    background-color: rgba(0, 10, 10, 0.3);
+    border: 0 solid white;
+}
+
+
+button {
+    background-color: rgba(10, 10, 10, 0.5);
+    color: beige;
+    border: 1px solid white;
+    border-radius: 12px;
+    width: 48px;
+    height: 48px;
+    font-weight: bold;
+}
+
+#reset {
+    background-color: grey;
+    color: white;
+    border: 2px solid white;
+    width: 20%;
+    margin-top: 24px;
+}
