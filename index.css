@@ -6,7 +6,6 @@ body {
     background-size: cover;
 }
 
-
 .container {
     display: flex;
     justify-content: space-evenly;
@@ -25,7 +24,6 @@ h2 {
     background-color: rgba(0, 10, 10, 0.3);
     border: 0 solid white;
 }
-
 
 button {
     background-color: rgba(10, 10, 10, 0.5);
