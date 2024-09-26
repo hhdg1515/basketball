@@ -1,9 +1,13 @@
 <html>
     <head>
         <link rel="stylesheet" href="index.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="container">
+          <div class="scores">
             <div class="home-column">
                 <h3 id="h2-home">HOME</h3>
                 <h2 id="home-score">0</h2>
@@ -22,10 +26,9 @@
                     <button onclick="guestthreepoints()">+ 3</button>
                 </div>
             </div>
+          </div>
+          <button id="reset" onclick="reset()">Reset</button>
         </div>        
-        <footer>
-            <button id="reset" onclick="reset()">Reset</button>
-        </footer>
         <script src="index.js"></script>
     </body>
 </html>
