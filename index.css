@@ -1,47 +1,69 @@
 body {
     margin: 0;
     text-align: center;
-    color: white;
-    background-image: url(https://ng-sportingnews.com/s3/files/styles/twitter_card_120x120/s3/2024-06/GFX-1433%20LIVE_FTR%20for%20NBA%20Finals%20live%20blog.jpg?itok=1UABBhI5); backdrop-filter: blur(1px); 
-    background-size: cover;
-    margin: 160px auto;
-    height: 550px;
-    width: 960px;
+    background: black;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
 .container {
+    background-image: url(https://ng-sportingnews.com/s3/files/styles/twitter_card_120x120/s3/2024-06/GFX-1433%20LIVE_FTR%20for%20NBA%20Finals%20live%20blog.jpg?itok=1UABBhI5);  
+    background-size: cover;
+    opacity: 0.9;
+    margin: 100px auto;
+    height: 800px;
+    width: 1600px;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-bottom: 4px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.scores {
+  display:flex;
+  justify-content: space-around;
 }
 
 h3 {
     margin: 12x auto;
-    font-size: 28px;
+    font-size: 56px;
+    color: white;
 }
 
 h2 {
-    font-size: 64px;
-    color: white;
-    background-color: rgba(0, 10, 10, 0.3);
-    border: 0 solid white;
+    font-size: 112px;
+    color: #EC2B2B;
+    background-color: #282D35;
+    opacity: 0.95;
+    width: 240px;
 }
 
 button {
-    background-color: rgba(10, 10, 10, 0.5);
-    color: beige;
+    background-color: #282D35;
+    color: white;
     border: 1px solid white;
     border-radius: 12px;
-    width: 480px;
-    height: 48px;
+    width: 72px;
+    height: 64px;
     font-weight: bold;
+    font-size:16px;
+}
+
+button: hover {
+  background: white;
+  color: black;
 }
 
 #reset {
-    background-color: grey;
+    background-color: white;
+    color: black;
+    border: 1.33px solid white;
+    width: 240px;
+    margin: 120px auto;
+}
+
+#reset:hover {
+    background-color: black;
     color: white;
-    border: 2px solid white;
-    width: 200px;
-    margin-top: 24px;
 }
