@@ -4,6 +4,9 @@ body {
     color: white;
     background-image: url(https://ng-sportingnews.com/s3/files/styles/twitter_card_120x120/s3/2024-06/GFX-1433%20LIVE_FTR%20for%20NBA%20Finals%20live%20blog.jpg?itok=1UABBhI5); backdrop-filter: blur(1px); 
     background-size: cover;
+    margin: 160px auto;
+    height: 550px;
+    width: 960px;
 }
 
 .container {
@@ -30,7 +33,7 @@ button {
     color: beige;
     border: 1px solid white;
     border-radius: 12px;
-    width: 48px;
+    width: 480px;
     height: 48px;
     font-weight: bold;
 }
@@ -39,6 +42,6 @@ button {
     background-color: grey;
     color: white;
     border: 2px solid white;
-    width: 20%;
+    width: 200px;
     margin-top: 24px;
 }
